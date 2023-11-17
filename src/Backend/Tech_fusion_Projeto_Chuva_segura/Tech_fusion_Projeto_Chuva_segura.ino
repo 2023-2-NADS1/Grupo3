@@ -97,10 +97,10 @@ void Pinos()
   pinMode(PIN_BUZZER,     OUTPUT);  
 }
 void setup(){
-  // Serial port for debugging purposes
+  
   Serial.begin(115200);
   Pinos();
-  pinMode(p_trigger, OUTPUT); // Sets the trigPin as an Output
+  pinMode(p_trigger, OUTPUT); 
   pinMode(p_echo, INPUT); 
 
  
@@ -147,7 +147,7 @@ void loop(){
     digitalWrite(i, LOW);    
   }
 
-  //desliga o BUZZER
+ 
   digitalWrite(PIN_BUZZER, LOW);
     
 
@@ -157,16 +157,14 @@ void loop(){
     digitalWrite(PIN_RED_LED, HIGH); 
     digitalWrite(PIN_BUZZER, HIGH);
   }
-  //caso a distancia seja maior que 5 e menor ou igual a 20,
-  //tomaremos como uma distância de atenção, e ligaremos o LED AMARELO
+  
   else if(distancia <=20)
   {
     delay(300);
     digitalWrite(PIN_YELLOW_LED, HIGH);
     delay(500);
   }
-  //caso a distancia seja maior que 20 e menor ou igual a 40,
-  //tomaremos como uma distância segura, e ligaremos o LED VERDE
+ 
   else if(distancia <= 40)
   {
     delay(500);
