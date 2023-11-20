@@ -3,16 +3,19 @@
 #include <ESPAsyncWebSrv.h>
 #include <Adafruit_Sensor.h>
 #include <HCSR04.h>
+#include "Adafruit_VL53L0X.h"
 #define p_trigger 12
 #define p_echo 14
 #define PIN_GREEN_LED   17
 #define PIN_YELLOW_LED  18
 #define PIN_RED_LED     19
-#define PIN_BUZZER      21
+#define PIN_BUZZER      5
 
 UltraSonicDistanceSensor distanceSensor(p_trigger, p_echo);  
+Adafruit_VL53L0X lox = Adafruit_VL53L0X();
 
 int distancia;
+int distancialaser;
 
 
 
@@ -31,7 +34,7 @@ String readDistance(){
   
   distanceCm = duration * SOUND_SPEED/2;
   Serial.println("Distance:");
-Serial.println(distanceCm);
+  Serial.println(distanceCm);
    return String(distanceCm);
    
 
@@ -41,6 +44,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
   <style>
     html {
      font-family: Arial;
@@ -102,12 +106,24 @@ void setup(){
   Pinos();
   pinMode(p_trigger, OUTPUT); 
   pinMode(p_echo, INPUT); 
+  
+//sensor a laser 
+   while (! Serial) {
+    delay(1);
+  }
+  
+  Serial.println("Adafruit VL53L0X test");
+  if (!lox.begin()) {
+    Serial.println(F("Failed to boot VL53L0X"));
+    while(1);
+  }
+  // power 
+  Serial.println(F("VL53L0X API Simple Ranging example\n\n")); 
 
- 
   
   // Connect to Wi-Fi
-  WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED) {
+   WiFi.begin(ssid, password);
+   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
     Serial.println("Connecting to WiFi..");
   }
@@ -134,6 +150,23 @@ void setup(){
 }
 
 void loop(){
+
+VL53L0X_RangingMeasurementData_t measure;
+    
+  Serial.print("");
+  lox.rangingTest(&measure, false); 
+
+  if (measure.RangeStatus != 4) {  
+    Serial.print("Distancia (mm): "); Serial.println(measure.RangeMilliMeter);
+  } else {
+    Serial.println(" fora de alcance ");
+  }
+    
+  delay(100);
+
+
+
+   distancialaser=measure.RangeMilliMeter;
    distancia=distanceSensor.measureDistanceCm();
   
   Serial.println("------------------");
@@ -151,21 +184,21 @@ void loop(){
   digitalWrite(PIN_BUZZER, LOW);
     
 
-  if( distancia <= 5 )
+  if( distancialaser <= 50 )
   {
     delay(100);
     digitalWrite(PIN_RED_LED, HIGH); 
     digitalWrite(PIN_BUZZER, HIGH);
   }
   
-  else if(distancia <=20)
+  else if(distancialaser <=200)
   {
     delay(300);
     digitalWrite(PIN_YELLOW_LED, HIGH);
     delay(500);
   }
  
-  else if(distancia <= 40)
+  else if(distancialaser <= 400)
   {
     delay(500);
     digitalWrite(PIN_GREEN_LED, HIGH);
