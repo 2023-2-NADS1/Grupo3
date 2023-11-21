@@ -10,7 +10,7 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/s%C3%A9rgio-ricardo-pedote-junior-377523193/">Sérgio Ricardo Pedote Jr </a>, <a href="--------">Filipi Pires </a>, <a href="https://www.linkedin.com/in/vinicius-piovesan-531508263/">Vinicius Miranda</a>, <a href="-----">Leon Sobrenome</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/jbuesso/"></a>Jose Carlos Buesso, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Valente</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/jbuesso/">Jose Carlos Buesso</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Valente</a>
 
 ## Descrição
 
