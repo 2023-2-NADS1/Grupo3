@@ -8,23 +8,23 @@
 
 ## TechFusion
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Sérgio Ricardo Pedote Jr </a>, <a href="https://www.linkedin.com/in/victorbarq/">Filipi Pires </a>, <a href="https://www.linkedin.com/in/victorbarq/">Vinicius Miranda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Leon Sobrenome</a>
+## Integrantes: <a href="https://www.linkedin.com/in/s%C3%A9rgio-ricardo-pedote-junior-377523193/">Sérgio Ricardo Pedote Jr </a>, <a href="--------">Filipi Pires </a>, <a href="https://www.linkedin.com/in/vinicius-piovesan-531508263/">Vinicius Miranda</a>, <a href="-----">Leon Sobrenome</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/"></a>Jose Carlos Buesso, <a href="https://www.linkedin.com/in/victorbarq/">Adriano Valente</a>, <a href="https://www.linkedin.com/in/victorbarq/">Katia Bossi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Renata </a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/jbuesso/"></a>Jose Carlos Buesso, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Valente</a>
 
 ## Descrição
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="" alt="N" border="0">
+  Projeto Chuva Segura <a href="---">N</a>
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+Nosso projeto visa alertar a população dos riscos em areas propocias a inundações,
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+pensando nisso os alunos da FECAP desenvolveram um sensor para medir o nivel da água, 
 <br><br>
-May the force be with you!
+e alerta o pessoal ao redor via sms, bluetooth, Wi-fi, tentando evitar que fiquem presos nas enchentes.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -41,7 +41,6 @@ May the force be with you!
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
@@ -126,4 +125,5 @@ Aqui estão as referências usadas no projeto.
 2. <https://github.com/gabrieldejesus/readme-model>
 3. <https://creativecommons.org/share-your-work/>
 4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+5. https://github.com/adafruit/Adafruit_VL53L0X
+
