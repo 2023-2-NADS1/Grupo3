@@ -15,9 +15,9 @@
 ## Descrição
 
 <p align="center">
-<img src="https://th.bing.com/th/id/OIP.21OTkQfPgKH2ARNZlb8yUwHaFN?rs=1&pid=ImgDetMain" alt="" border="0">
+<img src="https://lereaprender.com.br/chuva/" alt="" border="0">
   <br><br>
-<img src="[https://lereaprender.com.br/chuva/](https://th.bing.com/th/id/OIP.21OTkQfPgKH2ARNZlb8yUwHaFN?rs=1&pid=ImgDetMain)" alt="" border="0">
+<img src="https://th.bing.com/th/id/OIP.21OTkQfPgKH2ARNZlb8yUwHaFN?rs=1&pid=ImgDetMain" alt="" border="0">
   
   Projeto Chuva Segura <a href=""></a>
 </p>
