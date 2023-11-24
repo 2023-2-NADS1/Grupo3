@@ -17,7 +17,7 @@
 <p align="center">
 <img src="https://th.bing.com/th/id/OIP.21OTkQfPgKH2ARNZlb8yUwHaFN?rs=1&pid=ImgDetMain" alt="" border="0">
  <br><br>
- <a href="https://lereaprender.com.br/chuva/">Projeto Chuva Segura</a>
+ <a href="">Projeto Chuva Segura</a>
 </p>
 
 
