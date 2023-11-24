@@ -15,7 +15,7 @@
 ## Descrição
 
 <p align="center">
-<img src="" alt="N" border="0">
+<img src="https://prnt.sc/XgEoI_Xup-KE" alt="" border="0">
   Projeto Chuva Segura <a href="---">N</a>
 </p>
 
