@@ -15,9 +15,10 @@
 ## Descrição
 
 <p align="center">
-<img src="https://lereaprender.com.br/chuva/" alt="" border="0">
+<img src="https://github.com/2023-2-NADS1/Grupo3/assets/110056010/884e0f51-0552-491e-9ab4-a4f7ef2ea151
+" alt="" border="0">
   <br><br>
-<img src="" alt="" border="0">
+<img src="https://lereaprender.com.br/chuva/" alt="" border="0">
   
   Projeto Chuva Segura <a href=""></a>
 </p>
