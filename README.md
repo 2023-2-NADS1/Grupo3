@@ -8,23 +8,23 @@
 
 ## TechFusion
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Sérgio Ricardo Pedote Jr </a>, <a href="https://www.linkedin.com/in/victorbarq/">Filipi Pires </a>, <a href="https://www.linkedin.com/in/victorbarq/">Vinicius Miranda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Leon Sobrenome</a>
+## Integrantes: <a href="https://www.linkedin.com/in/s%C3%A9rgio-ricardo-pedote-junior-377523193/">Sérgio Ricardo Pedote Jr </a>, <a href="--------">Filipi Pires </a>, <a href="https://www.linkedin.com/in/vinicius-piovesan-531508263/">Vinicius Miranda</a>, <a href="-----">Leon Sobrenome</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/"></a>Jose Carlos Buesso, <a href="https://www.linkedin.com/in/victorbarq/">Adriano Valente</a>, <a href="https://www.linkedin.com/in/victorbarq/">Katia Bossi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Renata </a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/jbuesso/">Jose Carlos Buesso</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Valente</a>
 
 ## Descrição
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="" alt="N" border="0">
+  Projeto Chuva Segura <a href="---">N</a>
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+Nosso projeto visa alertar a população dos riscos em areas propocias a inundações,
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+pensando nisso os alunos da FECAP desenvolveram um sensor para medir o nivel da água, 
 <br><br>
-May the force be with you!
+e alerta o pessoal ao redor via sms, bluetooth, Wi-fi, tentando evitar que fiquem presos nas enchentes.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -34,54 +34,16 @@ May the force be with you!
 |-->documentos<br>
   &emsp;|-->antigos<br>
   &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
-
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠 Instalação
 
-<b>Android:</b>
+Apenas pegue o codigo na pasta src -> Backend -> Projeto_Chuva_Segura.ino
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+E cole no arduino IDE.
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -89,30 +51,26 @@ Descreva como instalar todas as dependências para desenvolvimento e como rodar 
 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+-<a href="https://www.arduino.cc/en/software">Arduino IDE</a>
 
 ## 🗃 Histórico de lançamentos
 
-A cada atualização os detalhes devem ser lançados aqui.
-
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.3.1 - 20/11/2023
+    * Alteração nos parametros de distancia dos sensores para se adequar com a metragem do cano.   
+    * MUDANÇA: Calibramos o sensor para a utilização de todos os leds dentro da distancia que temos no cano que é em torno de 7 cm .
+* 0.3.0 - 31/10/2023
+    * Criação do GitHub do Grupo
+    * Testes na resistencia da estrutura com a adição da água, retoques e pintura da caixa. 
+* 0.2.1 - 28/10/2023
+    * MUDANÇA: problemas na hora de colar o cano na base de plastico, mudança da abordagem com um estrutura reforçada de aluminio,colaquente,cilicone,cola de secagem rapida e cola plastica.
+* 0.2.0 - 21/10/2023
+    * MUDANÇA: Finalização do codigo e inicio da montagem física.
+* 0.1.1 - 07/10/2023
+    * Peças em mãos e inicio da programação em C++
+* 0.1.0 - 25/09/2023
+    * Definido o projeto, organização e orçamento do material a ser comprado
+* 0.0.1 - 18/09/2023
+    * Inicio do projeto, ideias iniciais e apresentação da proposta
 
 ## 📋 Licença/License
 
@@ -122,8 +80,9 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
+1. <https://github.com/dvarrel/ESPAsyncWebSrv/>
+2. <https://github.com/d03n3rfr1tz3/HC-SR04/>
 3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+4. <https://github.com/adafruit/Adafruit_Sensor/>
+5. <https://github.com/adafruit/Adafruit_VL53L0X/>
+
