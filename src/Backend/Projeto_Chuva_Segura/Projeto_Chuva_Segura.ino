@@ -191,14 +191,15 @@ VL53L0X_RangingMeasurementData_t measure;
     digitalWrite(PIN_BUZZER, HIGH);
   }
   
-  else if(distancialaser <=200)
+  else if(distancialaser <80 && distancialaser >50
+  )
   {
     delay(300);
     digitalWrite(PIN_YELLOW_LED, HIGH);
     delay(500);
   }
  
-  else if(distancialaser <= 400)
+  else if(distancialaser > 80 )
   {
     delay(500);
     digitalWrite(PIN_GREEN_LED, HIGH);
