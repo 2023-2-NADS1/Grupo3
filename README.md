@@ -80,9 +80,9 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
+1. <https://github.com/dvarrel/ESPAsyncWebSrv/>
+2. <https://github.com/d03n3rfr1tz3/HC-SR04/>
 3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. https://github.com/adafruit/Adafruit_VL53L0X
+4. <https://github.com/adafruit/Adafruit_Sensor/>
+5. <https://github.com/adafruit/Adafruit_VL53L0X/>
 
