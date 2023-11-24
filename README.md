@@ -15,8 +15,7 @@
 ## Descrição
 
 <p align="center">
-<img src="https://github.com/2023-2-NADS1/Grupo3/assets/110056010/884e0f51-0552-491e-9ab4-a4f7ef2ea151
-" alt="" border="0">
+<img src="https://th.bing.com/th/id/OIP.21OTkQfPgKH2ARNZlb8yUwHaFN?rs=1&pid=ImgDetMain" alt="" border="0">
   <br><br>
 <img src="https://lereaprender.com.br/chuva/" alt="" border="0">
   
