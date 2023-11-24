@@ -57,7 +57,7 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 
 * 0.3.1 - 20/11/2023
     * Alteração nos parametros de distancia dos sensores para se adequar com a metragem do cano.   
-    * MUDANÇA: Alterado de `  ` para `   `
+    * MUDANÇA: Calibramos o sensor para a utilização de todos os leds dentro da distancia que temos no cano que é em torno de 7 cm .
 * 0.3.0 - 31/10/2023
     * Criação do GitHub do Grupo
     * Testes na resistencia da estrutura com a adição da água, retoques e pintura da caixa. 
